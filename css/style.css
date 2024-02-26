@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Anchor Jack';
+    src: url(assets/AnchorJack.ttf);
+}
+
+body{
+ height: 100vh;
+}
+h1{
+    font-size: 128px;
+    font-family: 'Anchor Jack';
+    text-align: center;
+}
