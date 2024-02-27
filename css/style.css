@@ -4,12 +4,13 @@
 }
 
 body{
- height: 
+    background-color: #F5F3F4;
 }
 h1{
     font-size: 128px;
     font-family: 'Anchor Jack';
     text-align: center;
+    color: #0B090A;
 }
 p{
  font-size: 34px;   
@@ -17,9 +18,9 @@ p{
  font-weight: 400;
  font-style: normal;
  text-align: center;
+ color: #161A1D;
 }
 button {
-    --bg: #e74c3c;
     --text-color: #fff;
     position: relative;
     width: 200px !important;
@@ -34,7 +35,7 @@ button {
     border-radius: 5px;
     opacity: 0.8;
     letter-spacing: 1px;
-    box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+    box-shadow: #161A1D 0px 7px 2px, #000 0px 8px 5px;
   }
   
   button:hover {
@@ -43,7 +44,30 @@ button {
   
   button:active {
     top: 4px;
-    box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
+    box-shadow: #161A1D 0px 3px 2px,#000 0px 3px 5px;
+  }
+  .but1{
+    --bg: #BA181B;
+  }
+  .but2{
+    --bg: #A4161A;
+  }
+  .but3{
+    --bg: #660708;
+  }
+  .but4{
+    --bg: #A4161A;
+  }
+  .but5{
+    --bg: #660708;
+  }
+  .but6{
+    --bg: #3D0505;
+  }
+  p1{
+    font-size: 32px;
+    font-family: 'Anchor Jack';
+    text-align: center;
   }
   .row3{
     justify-content: center;
