@@ -5,3 +5,7 @@ function one(){
 function two(){
     document.getElementById('title').innerHTML = "January 2, 366";
 }
+
+function three(){
+    document.getElementById('img').src="img/366.jpg"
+}
