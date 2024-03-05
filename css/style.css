@@ -75,3 +75,13 @@ button {
   hr{
     opacity: 0;
   }
+  .img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+}
+  .col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+    height: 700px;
+  }
+
