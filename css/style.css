@@ -71,6 +71,7 @@ button {
   }
   .row3{
     justify-content: center;
+    position: fixed;
   }
   hr{
     opacity: 0;
@@ -82,6 +83,14 @@ button {
   .col-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
-    height: 700px;
+    height: 780px;
   }
 
+.center  {
+  justify-content: center;
+   display: flex;
+   align-items: center;
+}
+.colf{
+  height: 47vh;
+}
