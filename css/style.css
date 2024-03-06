@@ -1,3 +1,4 @@
+/* clamp([value-min], [value-preferred], [value-max]); */
 @font-face {
     font-family: 'Anchor Jack';
     src: url(assets/AnchorJack.ttf);
@@ -7,13 +8,15 @@ body{
     background-color: #F5F3F4;
 }
 h1{
-    font-size: 128px;
+    /* font-size: 128px; */
+    font-size: clamp(32px, 10vw, 128px);
     font-family: 'Anchor Jack';
     text-align: center;
     color: #0B090A;
 }
 p{
- font-size: 34px;   
+ /* font-size: 34px;    */
+ font-size: clamp(10px, 4vw, 34px);
  font-family: "Arbutus", serif;
  font-weight: 400;
  font-style: normal;
@@ -71,7 +74,7 @@ button {
   }
   .row3{
     justify-content: center;
-    position: fixed;
+    
   }
   hr{
     opacity: 0;
@@ -83,7 +86,7 @@ button {
   .col-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
-    height: 780px;
+    /*height: 745px;*/
   }
 
 .center  {
