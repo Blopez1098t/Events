@@ -80,7 +80,9 @@ button {
   max-height: 80vh !important;
 
 }
- 
+.col2{
+  height: 728px;
+}
 
   ./* row3{
     justify-content: center;
